@@ -1,0 +1,144 @@
+.principalContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.principalContainer h2 {
+  color: #003a5c;
+  font-family: sans-serif;
+}
+
+.navBar {
+  height: 60px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #003a5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 15px grey;
+}
+.navBar form {
+  width: 100%;
+}
+.socialLogo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.socialLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.inputSearch {
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 40%;
+  border-radius: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  color: grey;
+  font-weight: 700;
+  padding: 10px;
+}
+.inputSearch:focus {
+  outline: none;
+}
+
+.submitBtn {
+  border: 2px solid white;
+  background-color: transparent;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+}
+.submitBtn:hover {
+  cursor: pointer;
+}
+.submitDisabledBtn {
+  border: 2px solid grey;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: grey;
+}
+.cardsContainer {
+  width: 100%;
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popUpError {
+  border: 2px solid #003a5c;
+  border-radius: 5px;
+}
+.dialogContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dialogContainer span {
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #003a5c;
+}
+
+.acceptBtn {
+  border: 2px solid #003a5c;
+  border-radius: 5px;
+  color: #003a5c;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 100px;
+}
+.acceptBtn:hover {
+  background-color: #003a5c;
+  cursor: pointer;
+  color: white;
+}
+.acceptBtn:active {
+  outline: none;
+}
+
+@media screen and (max-width: 630px) {
+  .navBar {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .socialLogo{
+    height: 20px;
+    margin-left: 0px;
+    width: 20px;
+  }
+  .inputSearch {
+    width: 60%;
+    font-size: 12px;
+    height: 30px;
+  }
+  .submitBtn {
+    font-size: 12px;
+    height: 30px;
+  }
+  .submitDisabledBtn {
+    font-size: 12px;
+    height: 30px;
+  }
+  .principalContainer h2 {
+    font-size: 15px;
+  }
+}

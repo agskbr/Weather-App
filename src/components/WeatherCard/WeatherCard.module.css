@@ -1,0 +1,92 @@
+.card {
+  width: 300px;
+  margin: 15px;
+  height: 200px;
+  background-color: #003a5c;
+  box-shadow: 5px 10px 15px grey;
+  border-radius: 5px;
+}
+
+.headerCard {
+  background-color: white;
+  border-top-left-radius: 5px;
+  height: 60px;
+  display: flex;
+  border-top-right-radius: 5px;
+  justify-content: space-between;
+}
+.deleteBtn {
+  height: 30px;
+  width: 30px;
+  font-size: 14px;
+  background-color: transparent;
+  margin-top: 5px;
+  color: #e1012f;
+  border: 2px solid #e1012f;
+  border-radius: 5px;
+}
+.deleteBtn:hover {
+  cursor: pointer;
+  background-color: #e1012f;
+  color: white;
+}
+.btnContainer {
+  width: 50px;
+}
+
+.nameContainer {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: grey;
+  width: 100%;
+}
+
+.tempMax {
+  margin-top: 10px;
+}
+.tempMax span {
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding-left: 10px;
+}
+
+.tempMin {
+  margin-top: 5px;
+}
+.tempMin span {
+  color: white;
+  font-weight: 700;
+  opacity: 50%;
+  font-family: sans-serif;
+  padding-left: 10px;
+}
+
+.weatherContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weatherContainer img {
+  width: 35px;
+  height: 35px;
+}
+
+.humidity {
+  height: 35px;
+  background-color: white;
+  opacity: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.humidity span {
+  font-family: sans-serif;
+  color: grey;
+  font-weight: 700;
+}
